@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>
+OXY & IVAN SHOP | Shop
+</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+<body>
+
+
+
+<header>
+
+
+<div class="logo">
+OXY & IVAN SHOP
+</div>
+
+
+
+<nav>
+
+<a href="index.html">
+Home
+</a>
+
+<a href="shop.html">
+Shop
+</a>
+
+<a href="login.html">
+Account
+</a>
+
+
+</nav>
+
+
+
+<button id="theme">
+🌙
+</button>
+
+
+</header>
+
+
+
+
+
+<section>
+
+
+<h2>
+All Products
+</h2>
+
+
+
+<!-- SEARCH -->
+
+<input 
+id="search"
+type="text"
+placeholder="Search products..."
+onkeyup="searchShop()"
+>
+
+
+
+
+
+<!-- FILTERS -->
+
+
+<select id="categoryFilter"
+onchange="filterCategory()">
+
+
+<option value="all">
+All Categories
+</option>
+
+
+<option value="Electronics">
+Electronics
+</option>
+
+
+<option value="Shoes">
+Shoes
+</option>
+
+
+<option value="Clothes">
+Clothes
+</option>
+
+
+</select>
+
+
+
+
+
+<select id="sortPrice"
+onchange="sortProducts()">
+
+
+<option value="">
+Sort By
+</option>
+
+
+<option value="low">
+Price Low → High
+</option>
+
+
+<option value="high">
+Price High → Low
+</option>
+
+
+</select>
+
+
+
+
+
+
+<div 
+class="products"
+id="productContainer">
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+<footer>
+
+
+<h3>
+OXY & IVAN SHOP
+</h3>
+
+
+<p>
+MTN Mobile Money Supported
+</p>
+
+
+</footer>
+
+
+
+
+<script src="js/main.js"></script>
+
+
+<script src="js/products.js"></script>
+
+
+</body>
+
+
+</html>
