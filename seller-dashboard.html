@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+Seller Dashboard | OXY & IVAN SHOP
+</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<div class="logo">
+OXY & IVAN SHOP
+</div>
+
+
+<button onclick="logout()">
+Logout
+</button>
+
+
+</header>
+
+
+
+
+
+<section class="auth-box">
+
+
+<h2>
+Seller Dashboard
+</h2>
+
+
+<h3>
+Add New Product
+</h3>
+
+
+
+
+<input 
+id="productName"
+placeholder="Product Name"
+>
+
+
+
+
+<input 
+id="productImage"
+placeholder="Image URL"
+>
+
+
+
+
+<input 
+id="productPrice"
+placeholder="Price RWF"
+type="number"
+>
+
+
+
+
+<input 
+id="productCategory"
+placeholder="Category"
+>
+
+
+
+
+<input 
+id="productStock"
+placeholder="Stock Quantity"
+type="number"
+>
+
+
+
+
+<button onclick="addProduct()">
+
+Upload Product
+
+</button>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section>
+
+
+<h2>
+My Products
+</h2>
+
+
+<div class="products" id="sellerProducts">
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<script src="js/auth.js"></script>
+
+<script src="js/seller.js"></script>
+
+
+</body>
+
+
+</html>
